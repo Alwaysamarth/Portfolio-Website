@@ -1,0 +1,288 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.gideon-roman-regular {
+  font-family: "Gideon Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-color:#2f4b8e;
+  color:white;
+  font-family: "Gideon Roman", serif;
+}
+
+nav{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  height:80px;
+  background-color:#0d1c3f;
+}
+
+nav ul{
+  display: flex;
+  justify-content:center;
+}
+
+nav ul li{
+  list-style:none;
+  margin:0 23px;
+}
+
+
+.left{
+  font-size: 1.5rem;  
+  font-weight:bold;
+}
+
+.firstSection{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  margin:70px 0;
+}
+
+.firstSection >div{
+  width: 30%;
+}
+
+.leftSection{
+  font-size:2rem;
+}
+
+.rightSection img{
+  width:80%;
+  background-color: white;
+  border:2px solid black;
+  border-radius: 25%;
+}
+
+.purple{
+  color:#e2c928;
+  font-family:"Times New Roman", Times, serif;
+  font-style:italic;
+}
+
+.text-gray{
+  color:#c7c7c7;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+  font-style:italic;
+}
+nav ul li a:hover{
+  color:#9d4bc3;
+  text-decoration:none;
+  font-style:italic;
+  font-size: 1.02rem;
+}
+
+hr{
+  border:0;
+  background-color: #001580;
+  height:1.2px;
+  margin:40px 84px;
+}
+
+#element{
+  color:#e2c928
+}
+
+.secondSection{
+  margin:auto;
+  max-width:80vw;
+  height:80vh;
+}
+.secondSection h1{
+  font-size: 1.9rem;
+}
+.secondSection .box{
+  background-color: white;
+  width:80vw;
+  height:2px;
+  margin:56px 0;
+  display:flex;
+}
+.secondSection .vertical{
+  height: 93px;
+  width:1px;
+  background-color:white;
+  margin:0 130px;
+}
+.thirdSection{
+  margin:auto;
+  max-width:80vw;
+  height:80vh;
+}
+.thirdSection h1{
+  font-size: 1.9rem;
+}
+.thirdSection .vertical-2{
+  height: 93px;
+  width:1px;
+  background-color:white;
+  margin:0 180px;
+}
+.thirdSection .box-2{
+  background-color: white;
+  width:80vw;
+  height:2px;
+  margin:56px 0;
+  display:flex;
+}
+
+.image-top{
+  width:35px;
+  position: relative;
+  top: -32px;
+  left: -15px;  
+}
+.vertical-title-1{
+  position: relative;
+  top:54px;
+  width:150px;
+  left:-15px
+  
+}
+
+.vertical-desc-1{
+  position: relative;
+  top: 54px;
+  color: grey;
+  width: 150px;
+  font-size: 12px;
+  font-style: italic;
+  left: -18px;
+}
+.vertical-title-2{
+  position: relative;
+  top: 72px;
+  width: 150px;
+  left: -56px;
+
+}
+
+.vertical-desc-2{
+  position: relative;
+  top: 72px;
+  color: grey;
+  width: 150px;
+  font-size: 12px;
+  font-style: italic;
+  left: -56px;
+  }
+
+.vertical-title-3 {
+  position: relative;
+  top: 70px;
+  left: -15px;
+
+}
+
+.vertical-desc-3{
+  position: relative;
+  top: 74px;
+  color: grey;
+  width: 150px;
+  font-size: 12px;
+  font-style: italic;
+  left: -16px;
+}
+.vertical-title-4{
+  position: relative;
+  top: 60px;
+  width: 150px;
+  left: -57px;
+
+}
+
+.vertical-desc-4{
+  position: relative;
+  top: 63px;
+  color: grey;
+  width: 150px;
+  font-size: 12px;
+  font-style: italic;
+  left: -56px;
+}
+.ProjVertical-desc-1{
+  position: relative;
+  top: 88px;
+  color: white;
+  width: 150px;
+  font-size: 12px;
+  font-style: italic;
+  left: -85px;
+}
+
+.ProjVertical-title-1{
+  position: relative;
+  top: 77px;
+  left: -67px;
+}
+.ProjVertical-desc-2{
+  position: relative;
+  top: 72px;
+  color: white;
+  width: 150px;
+  font-size: 12px;
+  font-style: italic;
+  left: -56px;
+}
+.ProjVertical-title-2{
+  position: relative;
+  top: 72px;
+  width: 150px;
+  left: -56px;
+}.ProjVertical-desc-3{
+  position: relative;
+  top: 72px;
+  color: white;
+  width: 150px;
+  font-size: 12px;
+  font-style: italic;
+  left: -56px;
+}
+.ProjVertical-title-3{
+  position: relative;
+  top: 72px;
+  width: 150px;
+  left: -56px;
+}
+.ProjVertical-desc-4{
+  position: relative;
+  top: 72px;
+  color: white;
+  width: 150px;
+  font-size: 12px;
+  font-style: italic;
+  left: -56px;
+}
+.ProjVertical-title-4{
+  position: relative;
+  top: 72px;
+  width: 150px;
+  left: -56px;
+}
+.link-style{
+  color:white;
+  background-color: #8484b8;
+  border-radius: 10%;
+  border:1px;
+  padding:2px;
+  
+}
+.link-style:hover{
+  color:#4d77f5;
+  background-color: #8484b8;
+  border-radius: 10%;
+  border:1px;
+  padding:2px;
+
+}
